@@ -19,6 +19,11 @@ wanna --help
 #  by default it runs linters for the code, you can modify it based on your preferences
 task check
 
-# runs the task `build`.
+# runs the task check as well as tests and mypy via pre-commit.
 task build
 ```
+
+
+### Generating documentation
+
+Docs use [mkdocs](https://www.mkdocs.org/)  and can be checked on localhost before pushing via `task docs-serve`. To deploy execute `task docs-deploy`

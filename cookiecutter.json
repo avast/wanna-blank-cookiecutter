@@ -5,6 +5,7 @@
     "project_version": "0.0.0",
     "project_description": "Link to MLOps project page on CML",
     "project_slug": "{{cookiecutter.project_name|lower|replace('-', '_')|replace(' ', '_')}}",
+    "project_repo_name": "mlops/{{cookiecutter.project_slug}}",
     "gcp_project_id": "",
     "gcp_service_account": "",
     "gcp_artifact_registry_repository": "",
