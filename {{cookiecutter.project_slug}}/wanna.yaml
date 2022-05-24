@@ -1,7 +1,7 @@
 wanna_project:
   name: {{ cookiecutter.project_slug|replace('_', '-') }}
   version: {{ cookiecutter.project_version }}
-  authors: ["{{ cookiecutter.project_owner_email }}"]
+  authors: [{{ cookiecutter.project_owner_email }}]
 
 gcp_profiles:
   - profile_name: default
