@@ -21,11 +21,11 @@ pip install wanna-ml
 
 # Launch to cutter
 ```
-wanna init
+wanna init --template blank
 ```
 or without wanna, manually
 ```
-cookiecutter https://git.int.avast.com/bds/wanna-ml-cookiecutter
+cookiecutter https://git.int.avast.com/mlops/wanna-blank-cookiecutter
 ```
 
 # Answer the following question, values will be used to in your wanna-ml config
