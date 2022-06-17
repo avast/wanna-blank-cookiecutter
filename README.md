@@ -4,15 +4,6 @@ cookiecutter template for wanna-ml projects
 
 ## Get started
 
-Ensure Avasts' pypi repositories are enabled. 
-Add to `~/.pip/.pip.conf`
-```
-[global]
-index-url=https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple
-extra-index-url = https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-local/simple
-```
-
-
 # Install 
 
 ```
@@ -25,7 +16,7 @@ wanna init --template blank
 ```
 or without wanna, manually
 ```
-cookiecutter https://git.int.avast.com/mlops/wanna-blank-cookiecutter
+cookiecutter https://github.com/avast/wanna-blank-cookiecutter
 ```
 
 # Answer the following question, values will be used to in your wanna-ml config
